@@ -1,0 +1,59 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper .mappedAffairs {
+    height: 180px;
+}
+
+.wrapper .mappedAffairs table {
+    width: 400px;
+    font-size: 20px;
+}
+
+.wrapper .mappedAffairs .table button {
+    font-size: 15px;
+    line-height: 10px;
+    padding: 3px 7px;
+    border-radius: 0;
+}
+
+.wrapper .filterButtons button {
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.wrapper .filterButtons .active, .wrapper .filterButtons .active:focus {
+    background-color: #159A9C;
+}
+
+.wrapper .table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif, serif;
+    font-size: 14px;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+    width: 250px;
+}
+
+.wrapper .table td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+    background: #D8E6F3;
+}
+
+.wrapper .table td:nth-of-type(1) {
+    width: 100px;
+}
+
+.wrapper .table td:nth-of-type(2) {
+    width: 75px;
+}
+
+.wrapper .table td:nth-of-type(3) {
+    width: 20px;
+}
+

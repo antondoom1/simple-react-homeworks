@@ -1,0 +1,109 @@
+.messageSection {
+    display: flex;
+    justify-content: center;
+}
+
+.messageSection .ava img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 23px auto;
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.7);
+}
+
+.messageSection .mBody {
+    width: 250px;
+    min-height: 55px;
+    margin: 20px 30px;
+    border-radius: 15px;
+    background: #159A9C;
+    color: #fff;
+    padding: 10px;
+    font-weight: 900;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.6);
+    transform: rotate(-0.2deg);
+}
+
+.messageSection .mBody:before {
+    content: "";
+    position: absolute;
+    border-left: 15px solid transparent;
+    border-right: 15px solid #159A9C;
+    border-top: 15px solid #159A9C;
+    border-bottom: 15px solid transparent;
+    left: -25px;
+    top: 20px;
+}
+
+.messageSection .mBody .name {
+    color: #002333;
+}
+
+.messageSection .mBody .message {
+    font-weight: 500;
+    padding: 2px;
+}
+
+.messageSection .mBody .time {
+    font-weight: 200;
+    font-size: 15px;
+    color: #DEEFE7;
+    align-self: flex-end;
+}
+
+.inputSection {
+    text-align: center;
+}
+
+.inputSection .formInner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px 0;
+}
+
+.inputSection .decor .formInner textarea {
+    width: 250px;
+    height: 100px;
+    resize: none;
+    padding: 10px 10px;
+    background: #E9EFF6;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.formInner button {
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 10px 30px;
+    position: relative;
+    border: 2px solid #DEEFE7;
+    color: #002333;
+    font-family: 'Montserrat', sans-serif;
+    transition: .4s;
+}
+
+.formInner button:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border: 2px solid #002333;
+    transition: .4s;
+}
+
+.formInner button:hover:after {
+    border-color: #002333;
+    width: calc(100% - 10px);
+    height: calc(100% + 10px);
+}
