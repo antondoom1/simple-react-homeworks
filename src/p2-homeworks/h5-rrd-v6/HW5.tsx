@@ -11,9 +11,12 @@ function HW5() {
 
         <Header/>
 
+        <hr/>
+
         <Pages/>
 
       </HashRouter>
+
     </div>
   )
 }
