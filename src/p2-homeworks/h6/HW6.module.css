@@ -1,0 +1,10 @@
+.spanWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttonsWrapper {
+    display: flex;
+    justify-content: center;
+}
