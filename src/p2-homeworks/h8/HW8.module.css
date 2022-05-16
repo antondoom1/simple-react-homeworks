@@ -1,0 +1,39 @@
+.HW8Wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.HW8Wrapper button {
+    font-size: 15px;
+    line-height: 35px;
+}
+
+.HW8Wrapper .tableContainer {
+    min-height: 150px;
+}
+
+.HW8Wrapper .tableContainer table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif, serif;
+    font-size: 14px;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+    width: 250px;
+}
+
+.HW8Wrapper .tableContainer table td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+    background: #D8E6F3;
+}
+
+.HW8Wrapper .tableContainer table td:nth-of-type(1) {
+    width: 70px;
+}
+
+.HW8Wrapper .tableContainer table td:nth-of-type(2) {
+    width: 30px;
+}
+
