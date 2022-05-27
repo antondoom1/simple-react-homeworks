@@ -32,7 +32,7 @@ function HW7() {
         </div>
       </div>
 
-      <hr/>
+      {/*<hr/>*/}
       {/*для личного творчества, могу проверить*/}
       {/*<AlternativeSuperSelect/>*/}
       {/*<AlternativeSuperRadio/>*/}
