@@ -1,0 +1,10 @@
+.HW11Wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.HW11Wrapper .doubleRange {
+    width: 300px;
+}
+

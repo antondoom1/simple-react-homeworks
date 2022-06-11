@@ -1,0 +1,35 @@
+.errorPageWrapper {
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    background: #edf2f6;
+}
+
+.errorPageWrapper img {
+    max-width: 600px;
+    height: 600px;
+}
+
+.messageBlock {
+    padding-bottom: 3rem;
+}
+
+.messageBlock h2 {
+    margin-bottom: 8px;
+    font-weight: 800;
+    font-size: 27px;
+}
+
+.messageBlock p {
+    margin-bottom: 1.5rem;
+    margin-top: 0;
+    color: #6c757d;
+    font-size: 13px;
+}
+
+.errorPageWrapper .messageBlock .button {
+    text-transform: none;
+    padding: 15px 40px;
+    border-radius: 50rem;
+    background-color: #0e6dfd;
+    color: #DEEFE7;
+}
