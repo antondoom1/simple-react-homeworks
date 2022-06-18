@@ -33,3 +33,7 @@
     background-color: #0e6dfd;
     color: #DEEFE7;
 }
+
+.errorPageWrapper .messageBlock a {
+    text-decoration: none;
+}

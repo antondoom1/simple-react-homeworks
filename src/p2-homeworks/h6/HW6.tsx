@@ -32,10 +32,10 @@ function HW6() {
         <SuperButton onClick={restore}>restore</SuperButton>
       </div>
 
-      <hr/>
+      {/*<hr/>*/}
       {/*/!*для личного творчества, могу проверить*!/*/}
       {/*/!*<AlternativeSuperEditableSpan/>*!/*/}
-      {/*<hr/>*/}
+      <hr/>
     </div>
   )
 }

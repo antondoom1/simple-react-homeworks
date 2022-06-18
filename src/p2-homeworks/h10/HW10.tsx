@@ -19,7 +19,6 @@ function HW10() {
 
   return (
     <div>
-      <hr/>
       homeworks 10
 
       {/*should work (должно работать)*/}

@@ -12,7 +12,6 @@ const messageData = {
 function HW1() {
   return (
     <div>
-      <hr/>
       homeworks 1
       {/*<Message*/}
       {/*  avatar={messageData.avatar}*/}

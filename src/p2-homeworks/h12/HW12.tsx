@@ -1,26 +1,44 @@
-import React from "react";
-import s from "./HW12.module.css";
+import React from 'react'
+import s from './HW12.module.css'
+import SuperRadio from '../h7/common/c6-SuperRadio/SuperRadio'
+import {useDispatch, useSelector} from 'react-redux'
+import {AppStoreType} from '../h10/bll/store'
+import {changeToDarkThemeAC, changeToRedThemeAC, changeToLimeThemeAC, ThemesType} from './bll/themeReducer'
 
-const themes = ['dark', 'red', 'some'];
+const themes = ['dark', 'red', 'lime']
 
 function HW12() {
-    const theme = 'some'; // useSelector
+  const theme = useSelector<AppStoreType, ThemesType>(state => state.theme.currentTheme)
 
-    // useDispatch, onChangeCallback
+  const dispatch = useDispatch()
 
-    return (
-        <div className={s[theme]}>
-            <hr/>
-            <span className={s[theme + '-text']}>
-                homeworks 12
-            </span>
+  const onChangeCallback = (value: string) => {
+    if (value === 'dark') dispatch(changeToDarkThemeAC(value))
+    if (value === 'red') dispatch(changeToRedThemeAC(value))
+    if (value === 'lime') dispatch(changeToLimeThemeAC(value))
+  }
 
-            {/*should work (должно работать)*/}
-            {/*SuperSelect or SuperRadio*/}
+  return (
+    <div className={s[theme]}>
 
-            <hr/>
-        </div>
-    );
+      <span className={s[theme + '-text']}>
+        homeworks 12
+      </span>
+
+      <div className={s.radio}>
+
+        <span className={s[theme + '-text']}>Choose a color theme...</span>
+
+        <SuperRadio
+          options={themes}
+          value={theme}
+          onChangeOption={onChangeCallback}/>
+
+      </div>
+
+      <hr/>
+    </div>
+  )
 }
 
-export default HW12;
+export default HW12

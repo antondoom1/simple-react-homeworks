@@ -9,7 +9,6 @@ function HW11() {
 
   return (
     <div>
-      <hr/>
       homeworks 11
 
       {/*should work (должно работать)*/}
@@ -34,7 +33,7 @@ function HW11() {
         </div>
       </div>
 
-      <hr/>
+      {/*<hr/>*/}
       {/*для личного творчества, могу проверить*/}
       {/*<AlternativeSuperRange/>*/}
       {/*<AlternativeSuperDoubleRange/>*/}

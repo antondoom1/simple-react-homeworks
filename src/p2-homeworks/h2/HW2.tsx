@@ -34,7 +34,6 @@ function HW2() {
 
   return (
     <div>
-      <hr/>
       homeworks 2
 
       <Affairs

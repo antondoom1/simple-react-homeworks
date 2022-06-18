@@ -14,10 +14,27 @@
     color: aqua;
 }
 
-.some {
+.lime {
     background: lightgreen;
 }
 
-.some-text {
+.lime {
     color: darkslateblue;
+}
+
+.radio {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 600;
+}
+
+.radio form {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.radio span {
+    margin-bottom: 10px;
 }
